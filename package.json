@@ -1,0 +1,30 @@
+{
+  "name": "sum-video-duration",
+  "version": "1.0.0",
+  "description": "a lib to calculate the sum duration of multiple video files",
+  "main": "index.js",
+  "scripts": {
+    "pre": "tsc -p tsconfig.json",
+    "start": "npm run pre && node build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericyang89/sum-video-duration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericyang89/sum-video-duration/issues"
+  },
+  "homepage": "https://github.com/ericyang89/sum-video-duration#readme",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "execa": "^2.0.3",
+    "get-video-duration": "^1.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
